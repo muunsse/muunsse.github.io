@@ -1,0 +1,37 @@
+.container{
+    width: 950px;
+    background-color: #d6cfc4;
+    display: flex
+    border: 10%;
+    height: 50vh;
+    width: 70vh;
+    border-radius: 10px;
+}
+.azul{
+    display: flex;
+    background-color: rgb(49, 121, 228);
+    height: 12vh;
+    border-radius: 10px 10px 0px 0px;
+    border-image: 100%;
+}
+.container .perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #dfd9cf;
+    position: absolute;
+    top: 8%;
+    left: 1%;
+}
+.container .fuente{
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .p{
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .button{
+    border: none;
+    color: rgb(0, 0, 0);
+}
